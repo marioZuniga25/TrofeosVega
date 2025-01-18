@@ -1,0 +1,125 @@
+/* Estilo general para el contenedor principal */
+.company-info {
+    line-height: 1.6;
+    color: #ffffff;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-radius: 8px;
+    font-family: "Roboto", serif;
+  }
+  
+  /* Estilo del encabezado */
+  .company-header {
+    text-align: center;
+    color: white;
+    padding: 60px 20px;
+    background-color: #44021e;
+  }
+  
+  .company-name {
+    font-size: 2rem;
+    margin: 0;
+    color: #ffffff;
+  }
+  
+  .company-tagline {
+    font-size: 1.2rem;
+    color: #ffffff;
+  }
+  
+  
+  
+  .company-about h2, .company-services h2, .company-contact h2 {
+    font-size: 1.5rem;
+    color: #444;
+  }
+  .company-about{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+
+  .text-about{
+    width: 40%;
+    background-color: #5a0e3d;
+    border-radius: 20px;
+    text-align: center;
+    align-content: center;
+    padding: 50px;
+    color: white; 
+  }
+  .text-about h2{
+    color: white;
+  }
+
+  .img-1{
+    width: 30%;
+    border-radius: 20px;
+  }
+  
+  /* Lista de servicios */
+  .company-services{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #5a0e3d;
+  }
+
+  .company-services h2{
+    color: white;
+  }
+
+  .services-text{
+    width: 40%;
+    border-radius: 20px;
+    text-align: center;
+    align-content: center;
+    padding: 50px;
+    color: white; 
+  }
+
+  .company-services img{
+    width: 20%;
+    border-radius: 20px;
+  }
+
+  .company-services ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .company-services li {
+    background-color: #95003a;
+    margin: 5px 0;
+    border-radius: 4px;
+    padding: 20px;
+    width: 100%;
+    overflow: hidden; 
+    transition: height 0.5s ease;
+}
+
+.company-services li:hover {
+    height: 500px; /* Altura final cuando esté en hover */
+    transition: height 0.5s ease;
+  }
+
+  
+  /* Contacto */
+
+  .company-contact{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    max-width: 50%;
+  }
+
+  .company-contact p {
+    margin: 5px 0;
+  }
+  
+  .company-contact strong {
+    color: #222;
+  }
+  
+  
