@@ -45,6 +45,31 @@ export const About = () => {
         </div>
         
       </section>
+
+      <footer className="footer">
+                <div className="container-footer">
+                    <p>&copy; 2025 Trofeos Vega. Todos los derechos reservados.</p>
+                </div>
+
+                <ul className="social-icons">
+                    <li>
+                        <a href="#" target="_blank" className="fab fa-facebook-f"></a>
+                        <div className="tooltip">Facebook</div>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank" className="fab fa-twitter"></a>
+                        <div className="tooltip">Twitter</div>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank" className="fab fa-instagram"></a>
+                        <div className="tooltip">Instagram</div>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank" className="fab fa-linkedin-in"></a>
+                        <div className="tooltip">LinkedIn</div>
+                    </li>
+                </ul>
+            </footer>
     </div>
   )
 }
