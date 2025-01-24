@@ -6,13 +6,14 @@ import { About } from './About.jsx';
 import { Catalogo } from './Catalogo.jsx';
 import { UploadImageWithTrofeo } from './Upload.jsx';
 import { Contact } from './Contact.jsx';
+import { Details } from './Details.jsx';
 
 export const App = () => {
   return (
     <BrowserRouter>
       <div className="navbar">
         <div className="logo">
-          <img className="logo-img" src="./TrofeosVegaLogo-removebg.png" alt="" />
+          <img className="logo-img" src="/TrofeosVegaLogo-removebg.png" alt="" />
           <h3>Trofeos Vega</h3>
         </div>
         <div className="menu">
@@ -28,6 +29,7 @@ export const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/products" element={<Catalogo />} />
         <Route path="/contact" element= {<Contact />}></Route>
+        <Route path="/detail/:id" element={<Details />}></Route>
         <Route path="/*" element={<NotFound />} /> 
       </Routes>
     </BrowserRouter>

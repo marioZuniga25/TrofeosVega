@@ -3,6 +3,11 @@ import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 
+import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+
+import { FaArrowAltCircleLeft, FaArrowAltCircleRight, FaChevronLeft, FaChevronRight } from 'react-icons/fa';
+
 export const Landing = () => {
 
     const carouselSettings = {
@@ -24,20 +29,73 @@ export const Landing = () => {
         ]
     };
 
+    const arrowStyle = {
+        position: 'absolute',
+        top: '50%',
+        transform: 'translateY(-50%)',
+        backgroundColor: 'transparent',
+        color: 'white',
+        padding: '10px',
+        fontSize: '30px',
+        zIndex: 10,
+        cursor: 'pointer',
+      };
+
 
   return (
     <>
        <div>
-            <header className="header">
-                <div className="container">
-                    <h1>Bienvenido a Trofeos Vega</h1>
-                    <p>Comprometidos con la excelencia</p>
-                </div>
-            </header>
-
+            
+            <section className="caruosel">
+                  <div className="carousel-container">
+                      <Carousel
+                      showThumbs={false}
+                          renderArrowPrev={(onClickHandler, hasPrev, label) => (
+                            hasPrev && (
+                              <div
+                                onClick={onClickHandler}
+                                style={{ ...arrowStyle, left: '10px' }}
+                                aria-label={label}
+                              >
+                                <FaArrowAltCircleLeft size={40} color="white" />
+                              </div>
+                            )
+                          )}
+                          renderArrowNext={(onClickHandler, hasNext, label) => (
+                            hasNext && (
+                              <div
+                                onClick={onClickHandler}
+                                style={{ ...arrowStyle, right: '10px' }}
+                                aria-label={label}
+                              >
+                                <FaArrowAltCircleRight size={40} color="white" />
+                              </div>
+                            )
+                          )}
+                          infiniteLoop
+                          useKeyboardArrows
+                          autoPlay = {true}
+                          interval={3000}
+                      >
+                          <div>
+                              <img src="src/Img/banners/Red and Orange Bright and Vibrant Badge Seek Cover Image.png" alt="" />
+                          </div>
+                          <div>
+                              <img src="src/Img/banners/banner2.png" alt="" />
+                          </div>
+                          <div>
+                              <img src="src/Img/banners/banner3.png" alt="" />
+                          </div>
+                      </Carousel>
+                  </div>
+            </section>
+            <div className="section-title">
+                <h1>Productos Destacados</h1>
+            </div>
             <section className="products">
-            <div className="container">
-                <h2>Productos Destacados</h2>
+                
+            <div className="products-container">
+                <h2>Trofeos de Futbol</h2>
                 <Slider {...carouselSettings}>
                     <div className="product">
                         <img src="src/Img/trofeos/trofeo1.jpeg" alt="Producto 1" className="product-image" />
@@ -65,6 +123,38 @@ export const Landing = () => {
                         <p>Descripción breve del producto.</p>
                     </div>
                 </Slider>
+                <a href="/products"><button className='btn-vermas'>Ver mas</button></a>
+            </div>
+            <div className="container-x">
+            <h2>Trofeos de Basketbol</h2>
+                <Slider {...carouselSettings}>
+                    <div className="product">
+                        <img src="src/Img/trofeos/trofeo1.jpeg" alt="Producto 1" className="product-image" />
+                        <h3>Trofeo 1</h3>
+                        <p>Descripción breve del producto.</p>
+                    </div>
+                    <div className="product">
+                        <img src="src/Img/trofeos/trofeo2.jpeg" alt="Producto 2" className="product-image" />
+                        <h3>Trofeo 2</h3>
+                        <p>Descripción breve del producto.</p>
+                    </div>
+                    <div className="product">
+                        <img src="src/Img/trofeos/trofeo3.jpeg" alt="Producto 3" className="product-image" />
+                        <h3>Trofeo 3</h3>
+                        <p>Descripción breve del producto.</p>
+                    </div>
+                    <div className="product">
+                        <img src="src/Img/trofeos/trofeo7.jpeg" alt="Producto 4" className="product-image" />
+                        <h3>Trofeo 4</h3>
+                        <p>Descripción breve del producto.</p>
+                    </div>
+                    <div className="product">
+                        <img src="src/Img/trofeos/trofeo5.jpeg" alt="Producto 5" className="product-image" />
+                        <h3>Trofeo 5</h3>
+                        <p>Descripción breve del producto.</p>
+                    </div>
+                </Slider>
+                <a href="/products"><button className='btn-vermas'>Ver mas</button></a>
             </div>
         </section>
 
@@ -83,23 +173,20 @@ export const Landing = () => {
                     <p>&copy; 2025 Trofeos Vega. Todos los derechos reservados.</p>
                 </div>
 
-                <ul class="social-icons">
+                <ul className="social-icons">
                     <li>
-                        <a href="#" target="_blank" class="fab fa-facebook-f"></a>
-                        <div class="tooltip">Facebook</div>
+                        <a href="#" target="_blank" className="fab fa-facebook-f"></a>
+                        <div className="tooltip">Facebook</div>
                     </li>
                     <li>
-                        <a href="#" target="_blank" class="fab fa-twitter"></a>
-                        <div class="tooltip">Twitter</div>
+                        <a href="#" target="_blank" className="x"></a>
+                        <div className="tooltip">Twitter</div>
                     </li>
                     <li>
-                        <a href="#" target="_blank" class="fab fa-instagram"></a>
-                        <div class="tooltip">Instagram</div>
+                        <a href="#" target="_blank" className="fab fa-instagram"></a>
+                        <div className="tooltip">Instagram</div>
                     </li>
-                    <li>
-                        <a href="#" target="_blank" class="fab fa-linkedin-in"></a>
-                        <div class="tooltip">LinkedIn</div>
-                    </li>
+                    
                 </ul>
             </footer>
         </div>

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mazu1\\OneDrive\\Escritorio\\TrofeosVega\\Back-End\\TrofeosVega\\TrofeosVega\\TrofeosVega.csproj": {}
+    "D:\\Desarrollos\\Github\\TrofeosVega\\Back-End\\TrofeosVega\\TrofeosVega\\TrofeosVega.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mazu1\\OneDrive\\Escritorio\\TrofeosVega\\Back-End\\TrofeosVega\\TrofeosVega\\TrofeosVega.csproj": {
+    "D:\\Desarrollos\\Github\\TrofeosVega\\Back-End\\TrofeosVega\\TrofeosVega\\TrofeosVega.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mazu1\\OneDrive\\Escritorio\\TrofeosVega\\Back-End\\TrofeosVega\\TrofeosVega\\TrofeosVega.csproj",
+        "projectUniqueName": "D:\\Desarrollos\\Github\\TrofeosVega\\Back-End\\TrofeosVega\\TrofeosVega\\TrofeosVega.csproj",
         "projectName": "TrofeosVega",
-        "projectPath": "C:\\Users\\mazu1\\OneDrive\\Escritorio\\TrofeosVega\\Back-End\\TrofeosVega\\TrofeosVega\\TrofeosVega.csproj",
-        "packagesPath": "C:\\Users\\mazu1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mazu1\\OneDrive\\Escritorio\\TrofeosVega\\Back-End\\TrofeosVega\\TrofeosVega\\obj\\",
+        "projectPath": "D:\\Desarrollos\\Github\\TrofeosVega\\Back-End\\TrofeosVega\\TrofeosVega\\TrofeosVega.csproj",
+        "packagesPath": "C:\\Users\\Mayo\\.nuget\\packages\\",
+        "outputPath": "D:\\Desarrollos\\Github\\TrofeosVega\\Back-End\\TrofeosVega\\TrofeosVega\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\IDEs\\sdk\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mazu1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Mayo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
