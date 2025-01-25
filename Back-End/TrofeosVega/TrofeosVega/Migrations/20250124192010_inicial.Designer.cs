@@ -11,8 +11,8 @@ using TrofeosVega;
 namespace TrofeosVega.Migrations
 {
     [DbContext(typeof(TrofeosContext))]
-    [Migration("20250114022700_Initial")]
-    partial class Initial
+    [Migration("20250124192010_inicial")]
+    partial class inicial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -23,6 +23,31 @@ namespace TrofeosVega.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+
+            modelBuilder.Entity("TrofeosVega.Models.Deporte", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
+
+                    b.Property<string>("descripcion")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("img")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("nombre")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("id");
+
+                    b.ToTable("Deporte", (string)null);
+                });
 
             modelBuilder.Entity("TrofeosVega.Models.Trofeo", b =>
                 {
@@ -35,6 +60,9 @@ namespace TrofeosVega.Migrations
                     b.Property<string>("descripcion")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("idDeporte")
+                        .HasColumnType("int");
 
                     b.Property<string>("img")
                         .IsRequired()

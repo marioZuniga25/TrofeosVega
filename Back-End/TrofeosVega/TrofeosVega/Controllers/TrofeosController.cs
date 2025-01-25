@@ -107,9 +107,31 @@ namespace TrofeosVega.Controllers
             return NoContent();
         }
 
+
+        [HttpGet("PDeporte")]
+        public async Task<ActionResult<Trofeo>> GetTrofeoDeporte(int idDeporte)
+        {
+            var trofeosPDeporte = await _context.Trofeos
+         .Where(t => t.idDeporte == idDeporte) 
+         .ToListAsync();
+
+            if (trofeosPDeporte == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(trofeosPDeporte);
+        }
+
         private bool TrofeoExists(int id)
         {
             return _context.Trofeos.Any(e => e.id == id);
         }
+
+
+
+
+
+
     }
 }

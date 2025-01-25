@@ -6,6 +6,7 @@ namespace TrofeosVega.Models
     public class Trofeo
     {
         public int id { get; set; }
+        public int idDeporte { get; set; }
         public string nombre { get; set; }
         public double precioU { get; set; }
         public double precioMay { get; set; }

@@ -10,6 +10,7 @@ namespace TrofeosVega
         }
 
         public DbSet<Trofeo> Trofeos { get; set; }
+        public DbSet<Deporte> Deportes { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -24,6 +25,18 @@ namespace TrofeosVega
                 trofeo.Property(t => t.precioMay).IsRequired();
                 trofeo.Property(t => t.pzsMayoreo).IsRequired();
                 trofeo.Property(t => t.img).IsRequired();
+
+            });
+
+
+            modelBuilder.Entity<Deporte>(deporte =>
+            {
+                deporte.ToTable("Deporte");
+                deporte.HasKey(t => t.id);
+                deporte.Property(t => t.id).ValueGeneratedOnAdd().UseIdentityColumn();
+                deporte.Property(t => t.nombre).IsRequired();
+                deporte.Property(t => t.descripcion).IsRequired();
+                deporte.Property(t => t.img).IsRequired();
 
             });
         }

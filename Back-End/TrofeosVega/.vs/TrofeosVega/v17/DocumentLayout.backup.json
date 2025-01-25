@@ -7,20 +7,40 @@
       "RelativeMoniker": "D:0:0:{7CCA99C0-8667-45B7-ABDB-960EAD0F23C0}|TrofeosVega\\TrofeosVega.csproj|solutionrelative:trofeosvega\\controllers\\trofeoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CCA99C0-8667-45B7-ABDB-960EAD0F23C0}|TrofeosVega\\TrofeosVega.csproj|d:\\desarrollos\\github\\trofeosvega\\back-end\\trofeosvega\\trofeosvega\\models\\trofeo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CCA99C0-8667-45B7-ABDB-960EAD0F23C0}|TrofeosVega\\TrofeosVega.csproj|solutionrelative:trofeosvega\\models\\trofeo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7CCA99C0-8667-45B7-ABDB-960EAD0F23C0}|TrofeosVega\\TrofeosVega.csproj|d:\\desarrollos\\github\\trofeosvega\\back-end\\trofeosvega\\trofeosvega\\controllers\\deportescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CCA99C0-8667-45B7-ABDB-960EAD0F23C0}|TrofeosVega\\TrofeosVega.csproj|solutionrelative:trofeosvega\\controllers\\deportescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Desarrollos\\Github\\TrofeosVega\\Back-End\\TrofeosVega\\TrofeosVega\\Migrations\\20250124192010_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TrofeosVega\\Migrations\\20250124192010_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Desarrollos\\Github\\TrofeosVega\\Back-End\\TrofeosVega\\TrofeosVega\\Migrations\\20250124191801_adicionDeportes2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TrofeosVega\\Migrations\\20250124191801_adicionDeportes2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7CCA99C0-8667-45B7-ABDB-960EAD0F23C0}|TrofeosVega\\TrofeosVega.csproj|d:\\desarrollos\\github\\trofeosvega\\back-end\\trofeosvega\\trofeosvega\\trofeoscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7CCA99C0-8667-45B7-ABDB-960EAD0F23C0}|TrofeosVega\\TrofeosVega.csproj|solutionrelative:trofeosvega\\trofeoscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CCA99C0-8667-45B7-ABDB-960EAD0F23C0}|TrofeosVega\\TrofeosVega.csproj|d:\\desarrollos\\github\\trofeosvega\\back-end\\trofeosvega\\trofeosvega\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CCA99C0-8667-45B7-ABDB-960EAD0F23C0}|TrofeosVega\\TrofeosVega.csproj|solutionrelative:trofeosvega\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Desarrollos\\Github\\TrofeosVega\\Back-End\\TrofeosVega\\TrofeosVega\\Migrations\\20250124191424_adicionDeportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TrofeosVega\\Migrations\\20250124191424_adicionDeportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CCA99C0-8667-45B7-ABDB-960EAD0F23C0}|TrofeosVega\\TrofeosVega.csproj|d:\\desarrollos\\github\\trofeosvega\\back-end\\trofeosvega\\trofeosvega\\migrations\\20250114022700_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CCA99C0-8667-45B7-ABDB-960EAD0F23C0}|TrofeosVega\\TrofeosVega.csproj|solutionrelative:trofeosvega\\migrations\\20250114022700_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7CCA99C0-8667-45B7-ABDB-960EAD0F23C0}|TrofeosVega\\TrofeosVega.csproj|d:\\desarrollos\\github\\trofeosvega\\back-end\\trofeosvega\\trofeosvega\\models\\trofeo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CCA99C0-8667-45B7-ABDB-960EAD0F23C0}|TrofeosVega\\TrofeosVega.csproj|solutionrelative:trofeosvega\\models\\trofeo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CCA99C0-8667-45B7-ABDB-960EAD0F23C0}|TrofeosVega\\TrofeosVega.csproj|d:\\desarrollos\\github\\trofeosvega\\back-end\\trofeosvega\\trofeosvega\\models\\deporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CCA99C0-8667-45B7-ABDB-960EAD0F23C0}|TrofeosVega\\TrofeosVega.csproj|solutionrelative:trofeosvega\\models\\deporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CCA99C0-8667-45B7-ABDB-960EAD0F23C0}|TrofeosVega\\TrofeosVega.csproj|d:\\desarrollos\\github\\trofeosvega\\back-end\\trofeosvega\\trofeosvega\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CCA99C0-8667-45B7-ABDB-960EAD0F23C0}|TrofeosVega\\TrofeosVega.csproj|solutionrelative:trofeosvega\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CCA99C0-8667-45B7-ABDB-960EAD0F23C0}|TrofeosVega\\TrofeosVega.csproj|d:\\desarrollos\\github\\trofeosvega\\back-end\\trofeosvega\\trofeosvega\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CCA99C0-8667-45B7-ABDB-960EAD0F23C0}|TrofeosVega\\TrofeosVega.csproj|solutionrelative:trofeosvega\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7CCA99C0-8667-45B7-ABDB-960EAD0F23C0}|TrofeosVega\\TrofeosVega.csproj|d:\\desarrollos\\github\\trofeosvega\\back-end\\trofeosvega\\trofeosvega\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -34,11 +54,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DeportesController.cs",
+              "DocumentMoniker": "D:\\Desarrollos\\Github\\TrofeosVega\\Back-End\\TrofeosVega\\TrofeosVega\\Controllers\\DeportesController.cs",
+              "RelativeDocumentMoniker": "TrofeosVega\\Controllers\\DeportesController.cs",
+              "ToolTip": "D:\\Desarrollos\\Github\\TrofeosVega\\Back-End\\TrofeosVega\\TrofeosVega\\Controllers\\DeportesController.cs",
+              "RelativeToolTip": "TrofeosVega\\Controllers\\DeportesController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwC8AAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T19:27:25.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20250124192010_inicial.cs",
+              "DocumentMoniker": "D:\\Desarrollos\\Github\\TrofeosVega\\Back-End\\TrofeosVega\\TrofeosVega\\Migrations\\20250124192010_inicial.cs",
+              "RelativeDocumentMoniker": "TrofeosVega\\Migrations\\20250124192010_inicial.cs",
+              "ToolTip": "D:\\Desarrollos\\Github\\TrofeosVega\\Back-End\\TrofeosVega\\TrofeosVega\\Migrations\\20250124192010_inicial.cs",
+              "RelativeToolTip": "TrofeosVega\\Migrations\\20250124192010_inicial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T19:20:10.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "20250124191424_adicionDeportes.cs",
+              "DocumentMoniker": "D:\\Desarrollos\\Github\\TrofeosVega\\Back-End\\TrofeosVega\\TrofeosVega\\Migrations\\20250124191424_adicionDeportes.cs",
+              "RelativeDocumentMoniker": "TrofeosVega\\Migrations\\20250124191424_adicionDeportes.cs",
+              "ToolTip": "D:\\Desarrollos\\Github\\TrofeosVega\\Back-End\\TrofeosVega\\TrofeosVega\\Migrations\\20250124191424_adicionDeportes.cs",
+              "RelativeToolTip": "TrofeosVega\\Migrations\\20250124191424_adicionDeportes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T19:14:24.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Deporte.cs",
+              "DocumentMoniker": "D:\\Desarrollos\\Github\\TrofeosVega\\Back-End\\TrofeosVega\\TrofeosVega\\Models\\Deporte.cs",
+              "RelativeDocumentMoniker": "TrofeosVega\\Models\\Deporte.cs",
+              "ToolTip": "D:\\Desarrollos\\Github\\TrofeosVega\\Back-End\\TrofeosVega\\TrofeosVega\\Models\\Deporte.cs",
+              "RelativeToolTip": "TrofeosVega\\Models\\Deporte.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T19:06:54.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "D:\\Desarrollos\\Github\\TrofeosVega\\Back-End\\TrofeosVega\\TrofeosVega\\Models\\Categoria.cs",
+              "RelativeDocumentMoniker": "TrofeosVega\\Models\\Categoria.cs",
+              "ToolTip": "D:\\Desarrollos\\Github\\TrofeosVega\\Back-End\\TrofeosVega\\TrofeosVega\\Models\\Categoria.cs",
+              "RelativeToolTip": "TrofeosVega\\Models\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T19:06:44.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Desarrollos\\Github\\TrofeosVega\\Back-End\\TrofeosVega\\TrofeosVega\\appsettings.json",
               "RelativeDocumentMoniker": "TrofeosVega\\appsettings.json",
@@ -50,19 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "20250114022700_Initial.cs",
-              "DocumentMoniker": "D:\\Desarrollos\\Github\\TrofeosVega\\Back-End\\TrofeosVega\\TrofeosVega\\Migrations\\20250114022700_Initial.cs",
-              "RelativeDocumentMoniker": "TrofeosVega\\Migrations\\20250114022700_Initial.cs",
-              "ToolTip": "D:\\Desarrollos\\Github\\TrofeosVega\\Back-End\\TrofeosVega\\TrofeosVega\\Migrations\\20250114022700_Initial.cs",
-              "RelativeToolTip": "TrofeosVega\\Migrations\\20250114022700_Initial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T02:27:00.924Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Desarrollos\\Github\\TrofeosVega\\Back-End\\TrofeosVega\\TrofeosVega\\Program.cs",
               "RelativeDocumentMoniker": "TrofeosVega\\Program.cs",
@@ -74,27 +147,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "TrofeosContext.cs",
               "DocumentMoniker": "D:\\Desarrollos\\Github\\TrofeosVega\\Back-End\\TrofeosVega\\TrofeosVega\\TrofeosContext.cs",
               "RelativeDocumentMoniker": "TrofeosVega\\TrofeosContext.cs",
               "ToolTip": "D:\\Desarrollos\\Github\\TrofeosVega\\Back-End\\TrofeosVega\\TrofeosVega\\TrofeosContext.cs",
               "RelativeToolTip": "TrofeosVega\\TrofeosContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAYwCIAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T19:51:05.977Z"
+              "WhenOpened": "2025-01-10T19:51:05.977Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Trofeo.cs",
               "DocumentMoniker": "D:\\Desarrollos\\Github\\TrofeosVega\\Back-End\\TrofeosVega\\TrofeosVega\\Models\\Trofeo.cs",
               "RelativeDocumentMoniker": "TrofeosVega\\Models\\Trofeo.cs",
               "ToolTip": "D:\\Desarrollos\\Github\\TrofeosVega\\Back-End\\TrofeosVega\\TrofeosVega\\Models\\Trofeo.cs",
               "RelativeToolTip": "TrofeosVega\\Models\\Trofeo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T19:36:31.722Z"
+              "WhenOpened": "2025-01-10T19:36:31.722Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -104,9 +179,22 @@
               "RelativeDocumentMoniker": "TrofeosVega\\Controllers\\TrofeosController.cs",
               "ToolTip": "D:\\Desarrollos\\Github\\TrofeosVega\\Back-End\\TrofeosVega\\TrofeosVega\\Controllers\\TrofeosController.cs",
               "RelativeToolTip": "TrofeosVega\\Controllers\\TrofeosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAkwAoAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAUwG4AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-10T20:12:14.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20250124191801_adicionDeportes2.cs",
+              "DocumentMoniker": "D:\\Desarrollos\\Github\\TrofeosVega\\Back-End\\TrofeosVega\\TrofeosVega\\Migrations\\20250124191801_adicionDeportes2.cs",
+              "RelativeDocumentMoniker": "TrofeosVega\\Migrations\\20250124191801_adicionDeportes2.cs",
+              "ToolTip": "D:\\Desarrollos\\Github\\TrofeosVega\\Back-End\\TrofeosVega\\TrofeosVega\\Migrations\\20250124191801_adicionDeportes2.cs",
+              "RelativeToolTip": "TrofeosVega\\Migrations\\20250124191801_adicionDeportes2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T19:18:01.983Z",
               "EditorCaption": ""
             }
           ]

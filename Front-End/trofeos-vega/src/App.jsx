@@ -7,6 +7,8 @@ import { Catalogo } from './Catalogo.jsx';
 import { UploadImageWithTrofeo } from './Upload.jsx';
 import { Contact } from './Contact.jsx';
 import { Details } from './Details.jsx';
+import { UploadImageWithDeporte } from './UploadDeporte.jsx';
+import { DeporteProducts } from './DeporteProducts.jsx';
 
 export const App = () => {
   return (
@@ -30,6 +32,9 @@ export const App = () => {
         <Route path="/products" element={<Catalogo />} />
         <Route path="/contact" element= {<Contact />}></Route>
         <Route path="/detail/:id" element={<Details />}></Route>
+        <Route path="/deporte/:id" element={<DeporteProducts />}></Route>
+        <Route path='/upload' element={<UploadImageWithTrofeo />}></Route>
+        <Route path='/uploadDeporte' element={<UploadImageWithDeporte />}></Route>
         <Route path="/*" element={<NotFound />} /> 
       </Routes>
     </BrowserRouter>

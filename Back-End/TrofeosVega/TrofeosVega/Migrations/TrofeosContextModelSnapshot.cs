@@ -21,6 +21,31 @@ namespace TrofeosVega.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("TrofeosVega.Models.Deporte", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
+
+                    b.Property<string>("descripcion")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("img")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("nombre")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("id");
+
+                    b.ToTable("Deporte", (string)null);
+                });
+
             modelBuilder.Entity("TrofeosVega.Models.Trofeo", b =>
                 {
                     b.Property<int>("id")
@@ -32,6 +57,9 @@ namespace TrofeosVega.Migrations
                     b.Property<string>("descripcion")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("idDeporte")
+                        .HasColumnType("int");
 
                     b.Property<string>("img")
                         .IsRequired()

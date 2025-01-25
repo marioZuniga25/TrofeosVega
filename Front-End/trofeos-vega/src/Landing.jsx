@@ -123,7 +123,7 @@ export const Landing = () => {
                         <p>Descripción breve del producto.</p>
                     </div>
                 </Slider>
-                <a href="/products"><button className='btn-vermas'>Ver mas</button></a>
+                <a href="/deporte/1"><button className='btn-vermas'>Ver mas</button></a>
             </div>
             <div className="container-x">
             <h2>Trofeos de Basketbol</h2>
@@ -154,7 +154,7 @@ export const Landing = () => {
                         <p>Descripción breve del producto.</p>
                     </div>
                 </Slider>
-                <a href="/products"><button className='btn-vermas'>Ver mas</button></a>
+                <a href="/deporte/2"><button className='btn-vermas'>Ver mas</button></a>
             </div>
         </section>
 

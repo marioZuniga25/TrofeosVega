@@ -1,15 +1,11 @@
 import React, { useState } from 'react';
 
-export const UploadImageWithTrofeo = () => {
+export const UploadImageWithDeporte = () => {
   const [file, setFile] = useState(null);
-  const [trofeo, setTrofeo] = useState({
+  const [deporte, setDeporte] = useState({
     id: 0,
     nombre: '',
-    precioU: '',
-    precioMay: '',
-    descripcion: '',
-    pzsMayoreo: '',
-    idDeporte: 0
+    descripcion: ''
   });
 
   const handleImageUpload = (event) => {
@@ -18,7 +14,7 @@ export const UploadImageWithTrofeo = () => {
 
   const handleInputChange = (event) => {
     const { name, value } = event.target;
-    setTrofeo({ ...trofeo, [name]: value });
+    setDeporte({ ...deporte, [name]: value });
   };
 
   const handleSubmit = async () => {
@@ -32,12 +28,12 @@ export const UploadImageWithTrofeo = () => {
       const base64String = reader.result.split(',')[1]; // Eliminamos el prefijo 'data:image/...;base64,'
   
       const formData = {
-        ...trofeo,
+        ...deporte,
         img: base64String, // Asignamos solo la cadena base64
       };
   
       try {
-        const response = await fetch('https://localhost:7219/api/trofeos', {
+        const response = await fetch('https://localhost:7219/api/Deportes', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -46,13 +42,13 @@ export const UploadImageWithTrofeo = () => {
         });
   
         if (!response.ok) {
-          throw new Error('Error al subir el trofeo con la imagen');
+          throw new Error('Error al subir el deporte con la imagen');
         }
   
         const data = await response.json();
-        console.log('Trofeo subido con éxito:', data);
+        console.log('Deporte subido con éxito:', data);
       } catch (error) {
-        console.error('Error al subir el trofeo:', error);
+        console.error('Error al subir el deporte:', error);
       }
     };
     reader.readAsDataURL(file);
@@ -67,39 +63,16 @@ export const UploadImageWithTrofeo = () => {
         type="text"
         name="nombre"
         onChange={handleInputChange}
-        placeholder="Nombre del Trofeo"
-      />
-      <input
-        type="number"
-        name="precioU"
-        onChange={handleInputChange}
-        placeholder="Precio Unitario"
-      />
-      <input
-        type="number"
-        name="precioMay"
-        onChange={handleInputChange}
-        placeholder="Precio Mayoreo"
+        placeholder="Nombre del Deporte"
       />
       <textarea
         name="descripcion"
         onChange={handleInputChange}
         placeholder="Descripción"
       />
-      <input
-        type="number"
-        name="pzsMayoreo"
-        onChange={handleInputChange}
-        placeholder="Piezas para Mayoreo"
-      />
-      <input
-        type="number"
-        name="idDeporte"
-        onChange={handleInputChange}
-        placeholder="idDeporte"
-      />
+      
       <input type="file" onChange={handleImageUpload} />
-      <button onClick={handleSubmit}>Subir Trofeo con Imagen</button>
+      <button onClick={handleSubmit}>Subir Deporte con Imagen</button>
     </div>
   );
 };
