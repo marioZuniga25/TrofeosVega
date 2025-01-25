@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import './DeporteProducts.css';
 
 
@@ -8,6 +8,7 @@ export const DeporteProducts = () => {
     const [producto, setProducto] = useState(null); 
     const [deporte, setDeporte] = useState(null); 
     const [error, setError] = useState(null); 
+    const navigate = useNavigate();
   
     useEffect(() => {
       const fetchProducto = async () => {
@@ -52,7 +53,7 @@ export const DeporteProducts = () => {
 
     
   const handleDetails = (id) => {
-    navigate(`/details/${id}`);
+    navigate(`/detail/${id}`);
   };
   
     return (

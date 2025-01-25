@@ -13,7 +13,6 @@
     text-align: center;
     color: white;
     padding: 60px 20px;
-    background-color: #44021e;
   }
   
   .company-name {
@@ -41,7 +40,7 @@
 
   .text-about{
     width: 40%;
-    background-color: #5a0e3d;
+    background-color: #75471c;
     border-radius: 20px;
     text-align: center;
     align-content: center;
@@ -62,7 +61,7 @@
     display: flex;
     justify-content: space-around;
     padding: 20px;
-    background-color: #5a0e3d;
+    background-color: #75471c;
   }
 
   .company-services h2{
@@ -89,18 +88,15 @@
   }
   
   .company-services li {
-    background-color: #95003a;
+    background-color: #342314;
     margin: 5px 0;
     border-radius: 4px;
     padding: 20px;
     width: 100%;
     overflow: hidden; 
-    transition: height 0.5s ease;
 }
 
-.company-services li:hover {
-    height: 500px; /* Altura final cuando esté en hover */
-    transition: height 0.5s ease;
+  .company-services li:hover { 
   }
 
   

@@ -24,9 +24,7 @@ export const About = () => {
         <div className='services-text'>
           <h2>Servicios</h2>
           <ul>
-            <li>Trofeos Personalizados <br />
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis sunt sint pariatur, repellendus ut unde cumque perspiciatis accusantium! Natus distinctio quas quasi. Minima similique a aliquid corporis qui deleniti magnam?
-            </li>
+            <li>Trofeos Personalizados</li>
             <li>Medallas Personalizada</li>
             <li>Trofeos Niquelados</li>
             <li>Pedidos al Mayoreo</li>

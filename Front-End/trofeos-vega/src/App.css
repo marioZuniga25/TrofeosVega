@@ -46,10 +46,11 @@ body {
   font-family: "Roboto", serif;
   font-weight: 300;
   margin-right: 10%;
+  transition: background 0.3s ease, color 0.3s ease;
 }
 
 .navbar a:hover {
-  background-color: #955900;
+  background: linear-gradient( #342314 60%, #c78523 );
   color: #ffffff;
 }
 
