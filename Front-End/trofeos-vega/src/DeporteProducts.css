@@ -5,11 +5,14 @@
       gap: 20px;
     }
   
-  .company-header{
+  .dProducts-header{
     background-color: #75471c;
+    text-align: center;
+    color: white;
+    padding: 60px 20px;
   }
   
-  .card {
+  .product-card {
       position: relative;
       background-color: #c78523;
       border: 1px solid #965f0e;
@@ -24,7 +27,7 @@
       z-index: 1; 
     }
     
-    .card::after {
+    .product-card::after {
       content: '';
       position: absolute;
       bottom: 0;
@@ -38,11 +41,11 @@
       z-index: -1;
     }
     
-    .card:hover::after {
+    .product-card:hover::after {
       transform: translateY(0);
     }
     
-    .card:hover {
+    .product-card:hover {
       color: white;
       transform: translateY(-20px);
       transition: 0.5s;

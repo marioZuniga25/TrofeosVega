@@ -47,14 +47,20 @@ export const Catalogo = () => {
         <p className="company-tagline">Nuestros Productos</p>
       </header>
 
-      <div className="product-cards">
+      <div className="sport-cards">
       {deportes.map((deporte) => (
           <div 
             className="card" 
             key={deporte.id} 
+            style={{
+              backgroundImage: `url('data:image/jpeg;base64,${deporte.imgFondo}')`, // Usar base64
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
+              color: 'white',
+            }}
             onClick={() => handleDeporte(deporte.id)} // Llamar a handleDetails con el id del producto
           >
-            {deporte.img && <img src={`data:image/jpeg;base64,${deporte.img}`} alt={deporte.nombre} className="img-Catalogo" />}
+            {deporte.img && <img src={`data:image/jpeg;base64,${deporte.img}`} alt={deporte.nombre} className="img-Catalogo-sports" />}
             <h2>{deporte.nombre}</h2>
             <p>{deporte.descripcion}</p>
           </div>

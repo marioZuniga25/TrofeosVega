@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TrofeosVega")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+539950f9c4ecea951307ee92a8a7d8e125383b9a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+726d4446ccd3ce2e4797c39695637366341f14b3")]
 [assembly: System.Reflection.AssemblyProductAttribute("TrofeosVega")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TrofeosVega")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

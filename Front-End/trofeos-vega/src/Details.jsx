@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import './Details.css';
 
 
 export const Details = () => {
@@ -35,14 +36,33 @@ export const Details = () => {
     }
   
     return (
-      <div>
-        <h1>Detalles del Producto</h1>
-        <h2>{producto.nombre}</h2>
-        <p>{producto.descripcion}</p>
-        <p>Precio: €{producto.precioU}</p>
-        <p>Precio Mayoreo: €{producto.precioMay}</p>
-        <p>Piezas para Mayoreo: {producto.pzsMayoreo}</p>
-        {producto.img && <img src={`data:image/jpeg;base64,${producto.img}`} alt={producto.nombre} />}
-      </div>
+      <>
+        <header className="details-header">
+          <h2>Detalles del Producto</h2>
+        </header>
+
+        <div className="details-container">
+          <div className="img-product">
+            {producto.img && <img src={`data:image/jpeg;base64,${producto.img}`} alt={producto.nombre} />}
+          </div>
+
+          <div className="details">
+
+            <h1>{producto.nombre}</h1>
+            <p>{producto.descripcion}</p>
+            <p className="precios">
+              <strong>Precio:</strong> <span className="precio">€{producto.precioU}</span>
+            </p>
+            <p className="precios">
+              <strong>Precio Mayoreo:</strong> <span className="precio">€{producto.precioMay}</span>
+            </p>
+            <p className="precios">
+              <strong>Piezas para Mayoreo:</strong> <span className="precio">{producto.pzsMayoreo}</span>
+            </p>
+
+          </div>
+
+        </div>
+      </>
     );
   };

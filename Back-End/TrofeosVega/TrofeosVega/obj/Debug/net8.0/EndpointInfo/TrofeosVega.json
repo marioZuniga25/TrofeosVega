@@ -435,6 +435,10 @@
           "img": {
             "type": "string",
             "nullable": true
+          },
+          "imgFondo": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false

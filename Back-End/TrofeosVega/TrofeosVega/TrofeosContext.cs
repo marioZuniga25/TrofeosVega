@@ -37,6 +37,7 @@ namespace TrofeosVega
                 deporte.Property(t => t.nombre).IsRequired();
                 deporte.Property(t => t.descripcion).IsRequired();
                 deporte.Property(t => t.img).IsRequired();
+                deporte.Property(t => t.imgFondo).IsRequired();
 
             });
         }

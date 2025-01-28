@@ -58,12 +58,14 @@ export const DeporteProducts = () => {
   
     return (
       <div>
-        <h1>Trofeos de {deporte ? deporte.nombre : 'Cargando deporte...'}</h1>
-
+        <header className="dProducts-header">
+          <h1>Trofeos de {deporte ? deporte.nombre : 'Cargando deporte...'}</h1>
+        </header>
+        
         <div className="product-cards">
         {producto.map((producto) => (
           <div 
-            className="card" 
+            className="product-card" 
             key={producto.id} 
             onClick={() => handleDetails(producto.id)} // Llamar a handleDetails con el id del producto
           >
